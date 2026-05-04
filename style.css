@@ -1,0 +1,132 @@
+body {
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+  margin: 0;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h2 {
+  font-size: 28px;
+  border: 1px solid #5bf010;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 2s infinite alternate;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 80% }
+}
+
+/* NAV */
+.navi {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+
+.navi a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+}
+
+.navi a:hover {
+  background: #1e293b;
+}
+
+/* INTRO */
+.intro {
+  background: white;
+  color: black;
+  width: 80%;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* CALCULATOR */
+.calculator {
+  background: #0d3b66;
+  padding: 20px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 350px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.calculator input,
+.calculator select {
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  display: block;
+}
+
+.calculator button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #1fa2ff;
+  color: white;
+  cursor: pointer;
+}
+
+.calculator button:hover {
+  background: #0b7dda;
+}
+
+/* CARD */
+.card {
+  background: white;
+  color: black;
+  width: 300px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* SOCIAL */
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.socials a {
+  background: #1e90ff;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+/* IMAGE */
+.profil-img {
+  width: 200px;
+  height: 200px;
+  margin: 30px auto;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profil-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
